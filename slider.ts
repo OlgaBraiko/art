@@ -14,8 +14,6 @@ const sliders = (slides, dir: string, prev, next) => {
       slideIndex = items.length;
     }
 
-    //Показываем тот слайдер которые нужны и скрываем не нужные
-
     items.forEach((item: HTMLElement) => {
       item.classList.add("animated");
       item.style.display = "none";
